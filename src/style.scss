@@ -1,0 +1,20 @@
+
+#contactList th,#contactList td{
+    padding: 0.25rem;
+    margin: 0.2rem;
+    vertical-align: middle;
+}
+i{
+    font-size: 1.25rem;   
+    cursor: pointer;
+    margin-left: 0.25rem;
+}
+
+//if I use bootstrap, some margins are included in the cells to hide, that's why I use a simple mediaQuery
+@media screen and (max-width: 470px) {
+    .hidden{
+        display:none;
+    }
+}
+    
+
