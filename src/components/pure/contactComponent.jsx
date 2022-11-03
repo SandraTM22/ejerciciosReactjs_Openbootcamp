@@ -16,7 +16,6 @@ const ContactComponent = ({ contact, change, remove }) => {
                 <td>{ contact.name }</td>
                 <td>{ contact.lastName }</td>
                 <td className='hidden' >{ contact.email }</td>
-                {/* className='d-none d-sm-block' */}
                 <td>
                     {statusIcon()}
                     <i onClick={() => remove(contact) } className='bi-trash' style={{color:'hsl(0, 100%, 40%)'}}></i>
